@@ -4,7 +4,7 @@ namespace api.DbEntities;
 
 public class ConversionFactor : BaseEntity
 {
-    public required int FoodId { get; set; }
-    public required int MeasureId { get; set; }
     public required float Factor { get; set; }
+    public required Food Food { get; set; }
+    public required Measure Measure { get; set; }
 }
