@@ -1,5 +1,3 @@
-using System;
-
 namespace api.DbEntities;
 
 public class FoodNutrient : BaseEntity

@@ -204,7 +204,7 @@ public class SeedData
                                     new SqliteParameter("amount", amount),
                                     new SqliteParameter("created", created),
                                     new SqliteParameter("foodId", foodId),
-                                    new SqliteParameter("modified", ""),
+                                    new SqliteParameter("modified", DBNull.Value),
                                     new SqliteParameter("nutrientId", nutrientId)
                                     );
                                 }
